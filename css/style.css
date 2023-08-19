@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #212121;
+}
+.container{
+    position: relative;
+}
+.text{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(229, 208, 208); 
+    border-radius: 50%;
+    background-color: rgb(72, 61, 61);
+    box-shadow: 0px 0px 334px 44px rgb(207, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text span{
+    position: absolute;
+    transform: rotate(calc(30deg * var(--r)));
+    inset: 12px;
+    text-align: center;
+}
+.text span b{
+    transform: rotate(calc(-30deg * var(--r)));
+    display: inline-block;
+    font-size: 24px;
+}
+.text::before{
+    content: '';
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color:#ffff;
+    border-radius: 50%;
+
+}
+.rrr{
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+} 
+.rrr i{
+    position: absolute;
+    background-color: var(--clr);
+    width: 6px;
+    height: 80px;
+    border-radius: 4px;
+}
