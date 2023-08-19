@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imeges/bwaufre66cmy1dpuzpf6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ripon{
+    text-align: center;
+    background-color: rgb(96, 70, 36);
+     
+}
+.ripon ul{
+    display: inline-flex;
+    list-style: none; 
+}
+.ripon ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;
+}
+.ripon ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .ripon ul li:hover{
+  background: #2ba;
+  border-radius: 10px;
+
+}
